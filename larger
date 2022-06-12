@@ -1,0 +1,15 @@
+#include<stdlib.h>
+#include <stdio.h>
+
+int main() {
+float a,b;
+printf("ENTER TWO NUMBERS, (A)&(B) :");
+scanf("%f %f",&a,&b);
+if(a<b){
+    printf("B = %f is Larger than A = %f ",b,a);
+}
+else{
+    printf("A = %f is Larger than B = %f",a,b);
+}
+    return 0;
+}
