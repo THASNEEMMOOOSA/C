@@ -1,0 +1,17 @@
+// Online C compiler to run C program online
+#include<stdlib.h>
+#include <stdio.h>
+
+int main() {
+    float a;
+    printf("ENTER A NUMBER:");
+    scanf("%f",&a);
+    if(a<0){
+        printf("%f : NEGATIVE",a);
+    }
+    else{
+        printf("%f : POSITIVE",a);
+    }
+    
+    return 0;
+}
